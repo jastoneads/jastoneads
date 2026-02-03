@@ -9,10 +9,20 @@ header {
     text-align: center;
     padding: 20px;
 }
+nav {
+    background: #0a66c2;
+    padding: 12px;
+    text-align: center;
+}
 nav a {
     color: white;
-    margin: 15px;
     text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav a:hover {
+    text-decoration: underline;
 }
 .hero {
     background: white;
@@ -26,18 +36,45 @@ nav a {
     border: none;
     cursor: pointer;
 }
-.ads {
+.ads h2,
+.video-ad h2 {
+    text-align: center;
+}
+ .video-ad {
     padding: 20px;
     text-align: center;
+}
+.video-ad video {
+width: 320px;
+max-width: 100%;
+height: auto;
+border-radius: 10px;
 }
 .ad-box {
     background: white;
     margin: 10px auto;
     padding: 30px;
     width: 80px;
+    display: flex;
+    justify-content: center;
     max-width: 300px;
-    border: 1px dashed #aaa;
-}
+    border: 1px dashed #aaa;}
+ .ad-box img {
+max-width: 100%;
+width: 260px;
+height: auto;
+    }
+    .video-box {
+display: flex;
+justify-content: center;
+margin: 20px auto;
+    }
+    .video-box video {
+        width: 320px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
 footer {
     background: #222;
     color: white;
@@ -60,4 +97,20 @@ footer {
         height: auto;
         border-radius: 5px;
     }
-}
+    .whatsapp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: #ffffff;
+        padding: 12px 20px;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 14px;
+        display: inline-block;
+    z-index: 9999;}
+        a.whatsapp:hover {
+            background-color: #1ebe5d;
+        }
+    }
