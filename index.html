@@ -4,39 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advertise With us @Jastones'</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>My Advertising Website</h1>
         <p>Grow your business with us @jastones'</p>
  </header>
-
- <nav>
-<section class="ads">
-    <h2>Image ads</h2>
-    <div class="ad-box">
-        <img src="images/ad1.png"
-        alt="Ad 1">
-    </div>
-</section>
-<section class="video-ad">
-    <h2>Video Advertisement</h2>
-    <video controls>
-        <source src="videos/advert.mp4"
+ <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="advertise.html">Advertise</a>
+    <a href="contact.html">Contact</a>
+    </nav>
+    <main class="container">
+        <section class="ads">
+            <div class="ad-box">
+            <video controls muted autoplay> 
+                <source src="videos/advert.mp4">
         type="video/mp4">
-        Your browser does not support video.
-    </video>
-</section>
+            </video>
+            </div>
+            <div class="ad-box">
+           <img src="images/ad1.jpg" alt="Image Ad 1">
+           </div>
+           <div class="ad-box">
+            <img src="images/ad2.jpg" alt="Image Ad 2">
+        </div>
+        </section>
+        <section class="chat">
+            <h3>whatsapp Chat</h3>
+            <a href="http://wa.me/254741769421"
+            target="_blank"
+            class="whatsapp-chat">
+        Chat with us on whatsapp
+         </a>
+        </section>
+    </main>
  <footer>
     <p>© 2026 My advertising Website</p>
  </footer>
  <script src="script.js"></script>
-  <a href="index.html">Home</a>
-    <a href="#"advertise.html>Advertise</a>
-     </nav>
-    <a href="https://wa.me/254741769421" class="whatsapp" target="_blank">
-        Chat on whatsapp
-    </a>  
 </body>
 </html>
